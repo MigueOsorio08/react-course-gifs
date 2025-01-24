@@ -15,7 +15,12 @@ input {
     font-size: 1.2rem;
     outline: none;
     padding: 10px 15px;
-    width: 100%;
+    width: -webkit-fill-available;
+    margin-bottom: 10px;
+}
+
+input.search {
+    cursor: pointer;
 }
 
 h2 {
